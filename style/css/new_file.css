@@ -1,0 +1,237 @@
+
+/*网站首页*/
+/*书海撷英*/
+.book-ocean{
+	width: 1000px;
+    height: 380px;
+    margin: 10px auto;
+}
+.ocean-top{
+	width: 1000px;
+	height: 43px;
+	background-image: url(../../img/phb.png);
+	background-repeat: no-repeat;
+	background-color: #fff;
+	line-height: 43px;
+	border-bottom: 1px solid #ddd;
+}
+.ocean-top span.ocean-top-title{
+	font-family: "microsoft yahei";
+	font-size: 16px;
+	margin-left: 30px;
+}
+.ocean-top span.ocean-top-more{
+	font-family: "simsun";
+	font-size: 14px;
+	float: right;
+	margin-right: 20px;
+	cursor: pointer;
+}
+.ocean-content{
+	width: 960px;
+	height: 290px;
+	background-color: #fff;
+	padding: 20px;
+	
+}
+.ocean-content-img{
+	width: 200px;
+	height: 290px;
+	float: left;
+	position: relative;
+}
+.ocean-content-img img{
+	position: absolute;z-index: 2;
+}
+.ocean-content-img div{
+	width: 130px;
+	height: 30px;
+	position: absolute;z-index: 3;top: 20px;left: 15px;
+}
+.count ul li{
+	float: left;
+}
+.count ul img{
+	margin-right: 20px;
+}
+.count ul p{
+	font-family: "simsun";
+	font-size: 14px;
+	margin-left: 20px;
+}
+.ocean-content-list{
+	width: 730px;
+	height: 290px;
+	float: right;
+}
+.ocean-content-list-title{
+	width: 730px;
+	height: 40px;
+	background-color: #f2f2f2;
+	margin-bottom: 8px;
+}
+.ocean-content-list span{
+	font-size: 12px;
+	font-family: "simsun";
+	line-height: 36px;
+}
+.item{
+	margin-left: 40px;
+}
+.promulgator{
+	margin-left: 360px;
+}
+.pageview{
+	margin-left: 70px;
+}
+.time{
+	margin-left: 70px;
+}
+
+.ocean-content-list-details ul li{
+	width: 735px;
+	height: 40px;
+	line-height: 40px;
+	background-image: url(../../img/list-bg.png);
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+.ocean-content-list-details ul li:hover{
+	background-image: url(../../img/list-bg-on.png);
+	background-color: #f0f5f7;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	color: #21acda;
+}
+.details-item{
+	width: 430px;
+	float: left;
+}
+.details-promulgator{
+	width: 120px;
+	float: left;
+}
+.details-pageview{
+	width: 110px;
+	float: left;
+}
+.details-time{
+	width: 70px;
+	float: left;
+}
+.details-item span{
+	margin-left: 40px;
+}
+
+/*新书推荐*/
+.recommend{
+    width: 1000px;
+    height: 380px;
+    margin: 10px auto;
+}
+.recommend-top{
+	width: 990px;
+	height: 43px;
+	padding-left: 10px;
+	background-image: url(../../img/shxy-bg.png);
+	background-color: #fff;
+	background-repeat: no-repeat;
+	line-height: 43px;
+	border-bottom: 1px solid #ddd;
+}
+.recommend-top span.recommend-top-more{
+	font-family: "simsun";
+	font-size: 14px;
+	float: right;
+	margin-right: 20px;
+	cursor: pointer;
+}
+.recommend-top-title{
+	margin-left: 20px;
+	font-family: "microsoft yahei";
+	font-size: 16px;
+	cursor: pointer;
+}
+.recommend-top-title:hover{
+	color: #bebebe;
+}
+/*淡色字体*/
+.light{
+	color: #bebebe;
+}
+.recommend-content-list{
+	width: 730px;
+	height: 290px;
+	float: right;
+}
+.recommend-content-list ul li{
+	float: left;
+	width: 330px;
+	height: 70px;
+	margin: 0 15px 10px 0;
+	padding: 10px;
+	background-color: white;
+}
+.recommend-content-list ul li:hover{
+	background-color: #f0f5f7;
+}
+.recommend-book{
+	float: left;
+}
+.recommend-introduce{
+	margin-left: 20px;
+	float: left;
+}
+.introduce-title{
+	font-size: 14px;
+	font-family: "simsun";
+}
+.recommend-introduce div span{
+	font-size: 12px;
+	word-wrap: break-word;
+	word-break: break-all;
+}
+.recommend-introduce div {
+	width: 240px;
+	height: 30px;
+	color: #757575;
+}
+.introduce-last{
+	font-size: 12px;
+	color: #757575;
+	margin-top: 10px;
+}
+
+
+/*必读书目*/
+.set-books{
+    width: 1000px;
+    height: 520px;
+    margin: 10px auto 0;
+    background-color:#fff;
+}
+.set-books-content{
+	padding: 15px 0 0 25px;
+}
+.set-books-content ul li{
+	width: 114px;
+	height: 192px;
+	float: left;
+	margin-right: 7px;
+	margin-bottom: 15px;
+	padding: 8px;
+}
+.set-books-content ul li:hover{
+	background-color: #f0f5f7;
+}
+.set-books-content ul li p{
+	margin-top: 5px;
+	font-size: 14px;
+	font-family: "simsun";
+}
+
+
+
+/*footer*/
+
+

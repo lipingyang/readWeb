@@ -1,0 +1,199 @@
+.content{
+	width: 1000px;
+	height: 900px;
+	margin: 33px auto;
+}
+.content-left{
+	width: 700px;
+	height: 900px;
+	float: left;
+}
+.content-right{
+	width: 280px;
+	height: 900px;
+   float: right;
+}
+.content-left-head{
+	height: 43px;
+	background-image: url(../../img/shxy-bg.png);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	line-height: 43px;
+	padding-left: 10px;
+	margin-bottom: 2px;
+}
+.content-left-head span{
+	font-family: "microsoft yahei";
+	font-size: 16px;
+}
+.content-left-head span:hover{
+	color: #bebebe;
+}
+.content-left-title{
+	margin-left: 20px;
+	font-family: "microsoft yahei";
+	font-size: 16px;
+	cursor: pointer;
+}
+.content-top-title:hover{
+	color: #bebebe;
+}
+/*淡色字体*/
+.light{
+	color: #bebebe;
+}
+.content-left-head input{
+	width: 84px;
+	height: 24px;
+	background-color: #ffce1d;
+	border-radius: 3px;
+	border: 1px solid #e08c17;
+	float: right;
+	margin: 8px 10px 0 0 ;
+}
+.content-left ul li{
+	width: 670px;
+	height: 125px;
+	margin-bottom: 10px;
+	background-color: #fcfcfc;
+	padding: 20px 10px 20px 20px;
+}
+.person{
+	width: 75px;
+	height: 120px;
+	float: left;
+}
+.person-img{
+	width: 75px;
+	height: 75px;
+	background-image: url(../../img/person.png);
+}
+.content-left ul li:hover{
+	box-shadow: 2px 2px 2px #e4e4e4;
+	-moz-box-shadow:2px 2px 2px #e4e4e4;
+}
+.content-left ul li:hover .person-img{
+	background-image: url(../../img/person-orange.png);
+}
+
+.book-introduce{
+	width: 574px;
+	height: 120px;
+	float: right;
+}
+.person p{
+	font-size: 14px;
+	margin-top: 15px;
+	text-align: center;
+}
+.title-name{
+	font-size: 14px;
+	font-weight: bold;
+}
+.title-span{
+	font-size: 14px;
+}
+.book-introduce-txt{
+	font-size: 12px;
+	color: #434242;
+	margin-top: 15px;
+}
+
+.book-introduce-div{
+	margin-top: 25px;
+}
+.introduce-div{
+	width: 55px;
+	height: 25px;
+	margin-right: 5px;
+	float: left;
+
+}
+.introduce-div span{
+	font-family: "Arial";
+	font-size: 14px;
+	float: right;
+	margin-right: 10px;
+	margin-top: 3px;
+}
+
+
+/*排行榜部分*/
+.content-right-div{
+	width: 280px;
+	height: 440px;
+	margin-bottom: 22px;
+}
+.right-div-top{
+	line-height: 40px;
+	background-image: url(../../img/phb.png);
+	border-bottom: 1px solid #f2f2f2;
+}
+.right-div-top span{
+	font-family: "microsoft yahei";
+	margin-left: 30px;
+}
+.right-div-bottom{
+	width: 280px;
+	height: 400px;
+	background-image: url(../../img/phb-bg.png);
+}
+.bottom-first{
+	font-size: 12px;
+	color: white;
+	padding: 20px 0 0 50px;
+}
+.book-first-content{
+	width: 280px;
+	height: 30px;
+	margin-top: 10px;
+}
+.right-div-bottom div span{
+	font-size: 12px;
+}
+.bottom-first-name{
+	float: left;
+	margin-left: 40px;
+}
+.bottom-first-writer{
+	float: right;
+	margin-right: 10px;
+}
+
+.right-div-hot{
+	margin: 2px 0 0 50px;
+	color: white;
+}
+
+.right-div-li{
+	margin: 25px 0 0 40px;
+}
+.right-div-li li{
+	width: 230px;
+	height: 14px;
+	font-size: 12px;
+	margin-top: 12px;
+}
+
+.foot-img{
+	background-image: url(../../img/foot-gray.png);
+	background-color: #f2f2f2;
+}
+
+
+.page{
+	height: 50px;
+	float: left;
+	margin-left: 10%;
+}
+.page input{
+	width: 30px;
+	height: 30px;
+	background-color: white;
+	border-radius: 2px;
+	border: none;
+}
+.page .con{width: 60px;}
+.page input:hover{
+	background-color: #ff9126;
+}

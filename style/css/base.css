@@ -1,0 +1,169 @@
+*{margin: 0;padding: 0;}
+html{background-color: #f2f2f2;}
+a{text-decoration: none;color: black;}
+li{list-style: none;}
+input{outline: none;}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.f-12{
+	font-size: 12px;
+}
+.f-14{
+	font-size: 14px;
+}
+.f-16{
+	font-size: 16px;
+}
+.fw-bd{
+	font-weight: bold;
+}
+.top-top{
+	width: 100%;
+	height: 35px;	
+    background-color: #F7F7F7;
+}
+.welcome{
+	width: 1000px;
+	height: 35px;
+	margin: 0 auto;
+    position: relative;
+}
+.welcome li{
+	list-style: none;
+}
+.welcome span{
+	line-height: 35px;
+	font-size: 12px;
+}
+.denglu img{
+	padding-top: 5px;
+	padding-right: 5px;
+}
+/*头部*/
+.top-head {
+	min-width: 1000px;
+	height: 80px;
+	background: #21acda;
+}
+.top-center {
+	width:1000px;
+	margin: 0 auto;
+	height: 30px;
+	position: relative;
+}
+.top-center li{
+	float: left;
+	list-style: none;
+}
+.top-head img{
+	margin-top:8px ;
+}
+ .top-center-right{
+	width: 20%;
+}
+.top-center-right ul li{
+	float: right;
+	font-family: Simsun;
+	font-size: 12px;
+	color: black;
+}
+.top-center-right ul li p{
+	line-height: 80px;
+}
+ .head-menu{
+	width: 78px;
+	height: 85px;
+	background-image: url(../img/menu.png);
+	background-repeat: no-repeat;
+	padding-top: 20px;
+	font-size: 12px;
+	text-align: center;
+	line-height: 30px;
+	display: none;
+	position: absolute;top: 30px;right: 0;z-index: 1000;
+}
+ .head-menu p:hover{
+	background-color: #21acda;
+	color: white;
+}
+
+
+/*导航部分*/
+.nav{
+	width: 100%;
+	height: 50px;
+	background-color:#fff;
+}
+.nav-center{
+	width: 1000px;
+	height: 50px;
+	margin: 0 auto;
+}
+.nav-list{
+	float: left;
+	width: 720px;
+	height: 50px;
+}
+.nav-list ul li{
+	width: 80px;
+	height: 47px;
+	line-height: 50px;
+	text-align: center;
+	margin-right: 40px;
+	float: left;
+	font-family: "microsoft yahei";
+	font-size: 16px;
+}
+.nav-list ul li:hover{
+	border-bottom: 3px solid #fe9c10;
+}
+.nav-list ul li:hover .index{
+	border:3px solid #fff;
+}
+/*在不同页面，页面名称有橘黄色下边框*/
+.orange{
+	border-bottom: 3px solid #fe9c10;
+}
+/*输入框*/
+.input{
+	height:34px;
+	width: 240px;
+	float: right;
+    padding-top: 7px;
+}
+.input input{
+	height: 33px;
+	border: none;
+	width: 172px;
+	float: left; 
+    border: 1px solid #c9caca;
+    padding-left: 8px;
+}
+
+
+/*footer*/
+.foot-img{
+	width: 1000px;
+	height: 170px;
+	margin: 0 auto;
+}
+.footer{
+	width: 100%;
+	height: 90px;
+	background-color: #5d6362;
+	float: left;
+}
+.footer-center{
+	width: 1000px;
+	margin: 0 auto;
+}
+.footer-center p{
+	color: #fff;
+	font-size: 12px;
+	line-height: 90px;
+	text-align: center;
+}

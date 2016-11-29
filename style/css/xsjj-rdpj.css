@@ -1,0 +1,156 @@
+.content{
+	width: 1000px;
+	margin: 30px auto 0;
+	height: 980px;
+	background-color: #fcfcfc;
+	overflow: hidden;
+}
+.content-head{
+	width: 1000px;
+	height: 40px;
+	margin: 0 auto;
+	background-image: url(../../img/shxy-bg.png);
+	background-repeat: no-repeat;
+	line-height: 40px;
+	border-bottom: 1px solid #f2f2f2;
+	font-family: "microsoft yahei";
+	font-size: 16px;
+	background-color: #ffffff;
+	cursor: pointer;
+}
+.content-head span:hover{
+	color: #bebebe;
+}
+.content-head-first{
+	margin-left: 30px;
+	color:#bebebe ;
+}
+.content-head-second{
+	margin-left: 25px;
+	
+}
+.content-head input{
+	width: 84px;
+	height: 24px;
+	background-color: #ffce1d;
+	border-radius: 3px;
+	border: 1px solid #e08c17;
+	float: right;
+	margin: 8px 10px 0 0 ;
+}
+
+/*全部热门*/
+.all{
+	width: 1000px;
+	height: 40px;
+	background-color: #fcfcfc;
+	background-image: url(../../img/gray-bg.png);
+    background-repeat: repeat-x;
+	background-position: bottom;
+}
+.all div{
+	width: 75px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	margin-left: 10px;
+}
+.all div:hover{
+	background-image: url(../../img/blue-bg.png);
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+/*评论部分*/
+.judeg-publish{
+	width: 1000px;
+	height: 340px;
+	padding: 5px 15px 0 15px;
+}
+.judeg-publish p{
+  margin-bottom: 20px;
+}
+.judeg-publish ul li{
+	width: 1000px;
+	height: 80px;
+	margin-top: 5px;
+	background-color: #fcfcfc;
+	background-image: url(../../img/shxy-list.png);
+	background-position:bottom;
+	background-repeat: no-repeat;
+	background-repeat-x:inherit;
+	
+}
+.judge-publish-person{
+	width:50px;
+	height: 50px;
+	background-image: url(../../img/person-small.png);
+	background-size: 50px 50px;
+	margin: 10px 0 0 10px;
+}
+.judeg-piblish-reply{
+	width: 460px;
+	height: 50px;
+	margin: 10px 0 0 10px;
+}
+.reply-time{
+	color: #838282;
+}
+.reply-matter{
+    line-height: 30px;
+	color: #666666;
+}
+.judeg-piblish-btn{
+	width: 120px;
+	height: 50px;
+	line-height: 65px;
+	color: #6592f9;
+	margin-top: 10px;
+	position: relative;
+}
+.reply-txt{
+	position: absolute;top: 55px;right: 10px;
+	width: 1000px;
+	height: 160px;
+	background-color: #fcfcfc;
+}
+.reply-txt textarea{
+	width: 990px;
+	height: 80px;
+	border: 1px solid #f2f0f0;
+}
+.reply-txt input{
+	width: 87px;
+	height: 24px;
+	background-color: #ffce1c;
+	border: none;
+	border-radius: 3px;
+	margin: 0px 10px 0 20px;
+	float: right;
+}
+
+/*查看更多按钮*/
+.more-btn{
+	width: 1000px;
+	height: 40px;
+	padding-bottom: 30px;
+	background-color: #fff;
+	margin: 0 auto;
+	background-image: url(../../img/btn-bg.png);
+	background-color: #fcfcfc;
+	background-repeat: no-repeat;
+	background-repeat-x: initial;
+}
+.more-btn input{
+	width: 500px;
+	height: 40px;
+	background-color: #f0f0f0;
+	border: none;
+	margin-left: 250px;
+	color: #666666;
+	font-size: 14px;
+}
+/*底部图片*/
+.foot-img{
+	background-image: url(../../img/foot-gray.png);
+	background-color: #f2f2f2;
+}

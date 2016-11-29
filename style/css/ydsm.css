@@ -1,0 +1,127 @@
+.content{
+	width: 1000px;
+	margin: 30px auto 0;
+	height: 900px;
+	background-color: #fcfcfc;
+	overflow: hidden;
+}
+.content-head{
+	width: 1000px;
+	height: 40px;
+	margin: 0 auto;
+	background-image: url(../../img/shxy-bg.png);
+	background-repeat: no-repeat;
+	line-height: 40px;
+	border-bottom: 1px solid #f2f2f2;
+	font-family: "microsoft yahei";
+	font-size: 16px;
+	background-color: #ffffff;
+	cursor: pointer;
+}
+.content-head span:hover{
+	color: #bebebe;
+}
+.content-head-first{
+	margin-left: 30px;
+}
+.content-head-second{
+	margin-left: 25px;
+}
+.light{
+	color: #BEBEBE;
+}
+/*分类*/
+.content-part{
+	height: 50px;
+	width: 1000px;
+	margin-top: 10px;
+	padding-left: 20px;
+	background-color: #fcfcfc;
+	background-image: url(../../img/shxy-list.png);
+	background-repeat: repeat-x;
+	background-size: 28px 30px;
+	background-position: bottom;
+}
+.content-part div{
+	height: 30px;
+	line-height: 30px;
+	margin-right: 20px;
+	text-align: center;
+	font-size: 14px;
+}
+.content-part ul li{
+	width: 80px;
+	height: 28px;
+	float: left;
+	border: 1px solid #acc0cc;
+	margin-right: 20px;
+}
+
+/*全部热门*/
+.all{
+	width: 980px;
+	height: 40px;
+	margin: 0 auto;
+	background-color: #fcfcfc;
+	background-image: url(../../img/gray-bg.png);
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+.all div{
+	width: 80px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+.all div:hover{
+	background-image: url(../../img/blue-bg.png);
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+/*书目列表*/
+.set-books{
+    width: 600px;
+    margin: 10px auto 0;
+    background-color:#fff;
+}
+.set-books-content{
+	height: 800px;
+	padding: 15px 0 0 25px;
+	background-color: #fff;
+}
+.set-books-content ul li{
+	width: 114px;
+	height: 192px;
+	float: left;
+	margin-right: 7px;
+	margin-bottom: 15px;
+	padding: 8px;
+	background-color: #fff;
+}
+.set-books-content ul li:hover{
+	background-color: #f0f5f7;
+}
+.set-books-content ul li p{
+	margin-top: 5px;
+	font-size: 14px;
+	font-family: "simsun";
+}
+
+/*底部图片*/
+.foot-img{
+	background-image: url(../../img/foot-gray.png);
+	background-color: #f2f2f2;
+}
+
+
+/*自选书目的增加书目按钮*/
+.all input{
+	width: 84px;
+	height: 24px;
+	background-color: #ffce1d;
+	border-radius: 3px;
+	border: 1px solid #e08c17;
+	float: right;
+	margin: 8px 10px 0 0 ;
+}

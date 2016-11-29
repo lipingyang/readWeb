@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>奇文共赏-我要发表</title>
+		<link rel="stylesheet" href="style/css/base.css" />
+		<link rel="stylesheet" href="style/css/qwgs-wyfb.css" />
+	</head>
+	<body>
+		<!--头部-->
+        <div class="top-top">
+	        <div class="welcome">
+	        	<span>欢迎进入拱辰中学阅读网！</span>
+	        	<span style="float: right;" class="top-center-right" onclick='$("#hidePanel1").click()'> 
+	        	    <ul class="denglu"  onclick='$("#hidePanel1").hide()'>
+							<li><img src="style/img/sanjiao.png"></li>
+							<li><span>欢迎您，</span><span>沈浩</span></li>
+							<li><img src="img/per.png"></li>
+				    </ul>				
+				    <a href="" class="showPanel" id="hidePanel1"  style="display:block;">
+					    <div class="head-menu">
+							<p>个人管理</p>
+							<p>安全退出</p>
+					    </div>
+				    </a>
+	        	</span>
+	        </div>
+        </div>
+        <div class="top-head">
+        	<div class="top-center">
+			<a href="#"><img src="style/img/logo.png"></a>
+        	</div>
+		</div>
+		
+		<!--导航-->
+		<div class="nav">
+			<div class="nav-center">
+				<div class="nav-list">
+					<ul>
+						<a href="index.html"><li class="nav-li">网站首页</li></a>
+						<a href="shxy.html"><li class="nav-li">书海撷英</li></a>
+						<a href="qwgs.html"><li class="nav-li index orange">奇文共赏</li></a>
+						<a href="xsjj.html"><li class="nav-li">新书聚焦</li></a>
+						<a href="ydsm.html"><li class="nav-li">阅读书目</li></a>
+						<a href="jcpj.html"><li class="nav-li">检测评价</li></a>
+					</ul>
+				</div>
+			<!--输入框-->
+			   <div class="input">
+			   	     <input type="txt" name="#" placeholder="请输入微课关键词" class="ip2" onblur="if(this.placeholder =='') {this.placeholder = '请输入微课关键词'}" onfocus="if(this.placeholder == '请输入微课关键词'){ this.placeholder = '';this.style.color='#737e73';}">
+			   	     <img src="style/img/ser.png" width="" height="35px">
+			   </div>
+			</div>
+		</div>
+		
+		
+	  <!--内容主题部分-->
+	  <div class="content">
+	  	<div class="content-head">
+	  		<span class="f-16">奇文共赏-我要发表</span>
+	  	</div>
+	  	<div class="content-part">
+	  		<div class="fl f-12">分类：</div>
+	  		<div class="fl">
+	  		  <ul>
+	  		  	<li class="f-12">精彩语句</li>
+	  		  	<li class="f-12">主题人物</li>
+	  		  	<li class="f-12">创造性阅读</li>
+	  		  </ul>
+	  		</div>
+	  	</div>
+	  	<div class="content-explain">
+	  		<span>说明：</span>
+	  		<span>必读书目的文章语句摘抄加赏析，要求赏析不少于200字</span>
+	  	</div>
+	  	<div class="content-title">
+	  		<span>标题：</span>
+	  		<input type="text" value="请输入"/>
+	  	</div>
+	  	<div class="content-link">
+	  		<span>链接：</span>
+	  		<input type="text" value="请输入"/>
+	  	</div>
+	  	<div class="content-matters">
+	  		<div class="fl">内容：</div>
+	  		<div class="fl">
+	  			<textarea></textarea>
+	  		</div>
+	  		<div>
+	  			<input type="button" name="" id="" value="发表" />
+	  		</div>
+	  	</div>
+	  </div>
+	  
+	  
+	  
+	  <!--footer-->
+     <div class="foot-img">
+
+     </div>
+		
+	<div class="footer">
+	    <div class="footer-center">
+		  <p class="p2">Copyright © 拱宸中学 All Rights Reserved，技术支持：杭州鼎永科技有限公司</p>   	
+	    </div>
+     </div>
+     
+	</body>
+	
+	<script type="text/javascript" src="style/js/jquery.js" ></script>
+    <script type="text/javascript">
+		$(document).ready(function(){
+	        $(".top-center-right").click(function(){
+	            $(".head-menu").show();
+	        });
+	
+	        $("#hidePanel1").click(function () {
+	            $(this).show();
+	            $(this).focus();
+	        });
+	        $("#hidePanel1").blur(function () {
+	            $(this).hide();
+	        });
+	        $("#hidePanel1").hide();
+	        
+	        $(".content-part ul li").click(function(){
+	        	$(this).css("background-color","#80ccfc").css("color","#fff").siblings().css("background-color","#fcfcfc").css("color","#000")
+	        });
+	       //导航下边框
+	       $(".nav-li").mouseover(function(){
+	       	$(".index").removeClass("orange");
+	       });
+	       $(".nav-list").mouseleave(function(){
+	       	$(".index").addClass("orange");
+	       });
+		
+    
+	       });
+    </script>
+</html>

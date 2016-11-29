@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>检测评价-我要评价</title>
+		<link rel="stylesheet" href="style/css/base.css" />
+		<link rel="stylesheet" href="style/css/jcpj-wypj.css" />
+	</head>
+	<body>
+		<!--头部-->
+        <div class="top-top">
+	        <div class="welcome">
+	        	<span>欢迎进入拱辰中学阅读网！</span>
+	        	<span style="float: right;" class="top-center-right" onclick='$("#hidePanel1").click()'> 
+	        	    <ul class="denglu"  onclick='$("#hidePanel1").hide()'>
+							<li><img src="style/img/sanjiao.png"></li>
+							<li><span>欢迎您，</span><span>沈浩</span></li>
+							<li><img src="img/per.png"></li>
+				    </ul>				
+				    <a href="" class="showPanel" id="hidePanel1"  style="display:block;">
+					    <div class="head-menu">
+							<p>个人管理</p>
+							<p>安全退出</p>
+					    </div>
+				    </a>
+	        	</span>
+	        </div>
+        </div>
+        <div class="top-head">
+        	<div class="top-center">
+			<a href="#"><img src="style/img/logo.png"></a>
+        	</div>
+		</div>
+		
+		<!--导航-->
+		<div class="nav">
+			<div class="nav-center">
+				<div class="nav-list">
+					<ul>
+						<a href="index.html"><li class="nav-li">网站首页</li></a>
+						<a href="shxy.html"><li class="nav-li">书海撷英</li></a>
+						<a href="qwgs.html"><li class="nav-li">奇文共赏</li></a>
+						<a href="xsjj.html"><li class="nav-li">新书聚焦</li></a>
+						<a href="ydsm.html"><li class="nav-li">阅读书目</li></a>
+						<a href="jcpj.html"><li class="nav-li index orange">检测评价</li></a>
+					</ul>
+				</div>
+			<!--输入框-->
+			   <div class="input">
+			   	     <input type="txt" name="#" placeholder="请输入微课关键词" class="ip2" onblur="if(this.placeholder =='') {this.placeholder = '请输入微课关键词'}" onfocus="if(this.placeholder == '请输入微课关键词'){ this.placeholder = '';this.style.color='#737e73';}">
+			   	     <img src="style/img/ser.png" width="" height="35px">
+			   </div>
+			</div>
+		</div>
+		
+		
+		<!--内容部分-->
+		<div class="content">
+			<div class="content-title">
+				评价内容
+			</div>
+			<div class="content-slogan">
+				<p class="f-14">亲爱的读者：</p>
+				<p class="slogan-thx f-14">感谢使用织一张阅读网，为了您有更好的阅读享受，请您抽几分钟宝贵的时间认真完成以下的阅读评价，我们将真诚的听取您宝贵的意见和建议。</p>
+			</div>
+			<div class="box blue f-14">
+				1.你进入社团的动机是什么？（可多选）
+			</div>
+			<div class="box white">
+				 <input type="checkbox"><span>A.符合兴趣</span></input>
+	 	         <input type="checkbox"><span>B.寻求锻炼</span></input>
+	 	         <input type="checkbox"><span>C.受同伴影响</span></input>
+	 	         <input type="checkbox"><span>D.稀里糊涂加入</span></input>
+			</div>
+			<div class="box blue f-14">
+				2.参加社团活动的积极性：
+			</div>
+			<div class="box white">
+				 <input type="radio" name="club"><span>A.积极参加</span></input>
+	 	         <input type="radio" name="club"><span>B.被动参加</span></input>
+	 	         <input type="radio" name="club"><span>C.有兴趣参加</span></input>
+	 	         <input type="radio" name="club"><span>D.基本不参加</span></input>
+			</div>
+			<div class="box blue f-14">
+				3.通过社团你有什么收获？（可多选）
+			</div>
+			<div class="box white">
+				 <input type="checkbox"><span>A.提高了自己的能力</span></input>
+	 	         <input type="checkbox"><span>B.缓解学习压力，丰富学习生活</span></input>
+	 	         <input type="checkbox"><span>C.收获不大</span></input>
+			</div>
+			<div class="box blue f-14">
+				4.你对社团的期望和实际是否一致？
+			</div>
+			<div class="box white">
+				 <input type="radio" name="hope"><span>A.完全一致</span></input>
+	 	         <input type="radio" name="hope"><span>B.基本一致</span></input>
+	 	         <input type="radio" name="hope"><span>C.完全不一致</span></input>
+			</div>
+			<div class="box blue f-14">
+				5.你认为已参加的社团目前水平是否能满足自己参加的需求？
+			</div>
+			<div class="box white">
+				 <input type="radio" name="need"><span>A.完全能满足</span></input>
+	 	         <input type="radio" name="need"><span>B.基本能满足</span></input>
+	 	         <input type="radio" name="need"><span>C.与自己的初衷不符，不太能满足</span></input>
+	 	         <input type="radio" name="need"><span>D.完全不能</span></input>
+			</div>
+			<div class="box blue f-14">
+				6.你觉得你所在社团有创新吗？
+			</div>
+			<div class="box white">
+				 <input type="radio" name="new"><span>A.有</span></input>
+	 	         <input type="radio" name="new"><span>B.没有</span></input>
+			</div>
+			<div class="box blue f-14">
+				7.在文化节中，你的成果有展示吗？（展板、网络、舞台等形式均算）
+			</div>
+			<div class="box white">
+				 <input type="radio" name="show"><span>A.有</span></input>
+	 	         <input type="radio" name="show"><span>B.没有</span></input>
+			</div>
+			<div class="box blue f-14">
+				8.你对社团的总体评价：
+			</div>
+			<div class="box white">
+				 <input type="radio" name="judge"><span>A.非常满意，学习到许多有用的东西</span></input>
+	 	         <input type="radio" name="judge"><span>B.基本满意</span></input>
+	 	         <input type="radio" name="judge"><span>C.令人失望，几乎没学到什么</span></input>
+			</div>
+		</div>
+		
+		
+		<!--提交按钮-->
+        <div class="submit">
+        	<input type="button" value="提交"/>
+        </div>
+        
+        
+	    <!--footer-->
+	    <div class="foot-img">
+	
+	    </div>
+			
+		<div class="footer">
+		    <div class="footer-center">
+			  <p class="p2">Copyright © 拱宸中学 All Rights Reserved，技术支持：杭州鼎永科技有限公司</p>   	
+		    </div>
+	     </div>
+        	
+       
+	</body>
+	
+	<script type="text/javascript" src="style/js/jquery.js" ></script>
+    <script type="text/javascript">
+		$(document).ready(function(){
+	        $(".top-center-right").click(function(){
+	            $(".head-menu").show();
+	        });
+	
+	        $("#hidePanel1").click(function () {
+	            $(this).show();
+	            $(this).focus();
+	        });
+	        $("#hidePanel1").blur(function () {
+	            $(this).hide();
+	        });
+	        $("#hidePanel1").hide();
+	       //导航下边框
+	       $(".nav-li").mouseover(function(){
+	       	$(".index").removeClass("orange");
+	       });
+	       $(".nav-list").mouseleave(function(){
+	       	$(".index").addClass("orange");
+	       });
+		
+	        
+	       });
+    </script>
+</html>

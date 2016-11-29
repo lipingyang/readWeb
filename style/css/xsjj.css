@@ -1,0 +1,115 @@
+.content{
+	width: 1000px;
+	margin: 30px auto 0;
+	height: 1000px;
+	background-color: #fcfcfc;
+	overflow: hidden;
+}
+.content-head{
+	width: 1000px;
+	height: 40px;
+	margin: 0 auto;
+	background-image: url(../../img/shxy-bg.png);
+	background-repeat: no-repeat;
+	line-height: 40px;
+	border-bottom: 1px solid #f2f2f2;
+	font-family: "microsoft yahei";
+	font-size: 16px;
+	background-color: #ffffff;
+	cursor: pointer;
+}
+.content-head span:hover{
+	color: #bebebe;
+}
+.content-head-first{
+	margin-left: 30px;
+}
+.content-head-second{
+	margin-left: 25px;
+	color: #bebebe;
+}
+.content-head input{
+	width: 84px;
+	height: 24px;
+	background-color: #ffce1d;
+	border-radius: 3px;
+	border: 1px solid #e08c17;
+	float: right;
+	margin: 8px 10px 0 0 ;
+}
+
+/*书目列表*/
+.recommend-content-list{
+	width: 970px;
+	height: 270px;
+	float: right;
+	padding: 20px 10px 0 20px;
+	background-color: #fcfcfc;
+}
+.recommend-content-list ul li{
+	float: left;
+	width: 450px;
+	height: 70px;
+	padding: 10px;
+	background-color: #fcfcfc;
+}
+.recommend-content-list ul li:hover{
+	background-color: #f0f5f7;
+}
+.recommend-book{
+	float: left;
+}
+.recommend-introduce{
+	margin-left: 20px;
+	float: left;
+}
+.introduce-title{
+	font-size: 14px;
+	font-family: "simsun";
+}
+.recommend-introduce div span{
+	font-size: 12px;
+	word-wrap: break-word;
+	word-break: break-all;
+}
+.recommend-introduce div {
+	width: 240px;
+	height: 30px;
+	color: #757575;
+}
+.introduce-last{
+	font-size: 12px;
+	color: #757575;
+	margin-top: 10px;
+}
+
+
+/*查看更多按钮*/
+.more-btn{
+	width: 1000px;
+	height: 40px;
+	padding-bottom: 30px;
+	background-color: #fff;
+	margin: 0 auto;
+	background-image: url(../../img/btn-bg.png);
+	background-color: #fcfcfc;
+	background-repeat: repeat-x;
+}
+.more-btn input{
+	width: 500px;
+	height: 40px;
+	background-color: #f0f0f0;
+	border: none;
+	margin-left: 250px;
+	color: #000;
+			
+			
+}
+.more-btn input:hover{
+    box-shadow: 2px 2px 2px #e4e4e4;			
+}
+/*底部图片*/
+.foot-img{
+	background-image: url(../../img/foot-gray.png);
+	background-color: #f2f2f2;
+}

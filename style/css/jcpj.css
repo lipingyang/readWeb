@@ -1,0 +1,133 @@
+.content{
+	width: 1000px;
+	height: 1150px;
+	margin: 30px auto 0;
+	background-color: #fcfcfc;
+}
+.content-head{
+	width: 970px;
+	height:43px;
+	background-image: url(../../img/phb.png);
+	background-repeat: no-repeat;
+	background-color: #fff;
+	line-height: 43px;
+	font-family: "microsoft yahei";
+	padding-left: 30px;
+}
+
+
+/*主体部分*/
+.content-list{
+	width: 970px;
+	height: 1200px;
+	background-color: #fcfcfc;
+	padding: 15px 15px 0 15px;
+}
+.content-list ul li{
+	width: 938px;
+	height: 130px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	padding: 40px 10px 20px 20px;
+	border-left: 2px solid #80ccfc;
+}
+.person{
+	width: 75px;
+	height: 120px;
+	float: left;
+}
+.person-img{
+	width: 75px;
+	height: 75px;
+	background-image: url(../../img/person.png);
+}
+.content-list ul li:hover{
+	box-shadow: 2px 2px 2px #e4e4e4;
+	-moz-box-shadow:2px 2px 2px #e4e4e4;
+}
+.content-list ul li:hover .person-img{
+	background-image: url(../../img/person-orange.png);
+}
+
+.book-introduce{
+	width: 820px;
+	height: 120px;
+	float: left;
+	margin-left: 20px;
+}
+.person p{
+	font-size: 14px;
+	margin-top: 15px;
+	text-align: center;
+}
+.title-name{
+	font-size: 14px;
+	font-weight: bold;
+}
+.title-span{
+	font-size: 14px;
+}
+.book-introduce-txt{
+	font-size: 12px;
+	color: #434242;
+	margin-top: 15px;
+	height: 30px;
+	line-height: 20px;
+}
+
+.book-introduce-div{
+	margin-top: 25px;
+}
+.introduce-div{
+	width: 55px;
+	height: 25px;
+	margin-right: 5px;
+	float: left;
+
+}
+.introduce-div span{
+	font-family: "Arial";
+	font-size: 14px;
+	float: right;
+	margin-right: 10px;
+	margin-top: 3px;
+}
+
+
+
+.book-introduce-div input{
+	width: 84px;
+	height: 24px;
+	background-color: #ffce1d;
+	border-radius: 3px;
+	border: 1px solid #e08c17;
+}
+
+/*查看更多按钮*/
+.more-btn{
+	width: 1000px;
+	height: 40px;
+	padding-bottom: 30px;
+	background-color: #fff;
+	margin: 0 auto;
+	background-image: url(../../img/btn-bg.png);
+	background-color: #fcfcfc;
+    background-repeat: repeat-x;
+}
+.more-btn input{
+	width: 500px;
+	height: 40px;
+	background-color: #f0f0f0;
+	border: none;
+	margin-left: 250px;
+	color: #666666;
+	font-size: 14px;
+}
+.more-btn input:hover{
+    box-shadow: 2px 2px 2px #e4e4e4;			
+}
+/*底部图片*/
+.foot-img{
+	background-image: url(../../img/foot-gray.png);
+	background-color: #f2f2f2;
+}

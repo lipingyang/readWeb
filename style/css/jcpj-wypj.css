@@ -1,0 +1,110 @@
+.content{
+	width: 865px;
+	height: 800px;
+	margin: 100px auto 0;
+	background-image: url(../../img/wypj-bg.png);
+	background-repeat: no-repeat;
+}
+.content-title{
+	width: 865px;
+	height: 42px;
+	line-height: 42px;
+	text-align: center;
+	font-size: 26px;
+	font-family: "microsoft yahei";
+	color: #fff;
+}
+.content-slogan{
+	width: 783px;
+	height: 73px;
+	margin: 3px auto 0;
+	background-color: #fff;
+	border-bottom: 3px solid #f2f2f2;
+	padding: 10px 18px 0 18px;
+}
+.slogan-thx{
+	text-indent: 20px;
+	margin-top: 5px;
+	line-height: 20px;
+}
+.box{
+	width: 789px;
+	height: 40px;
+	margin: 0 auto;
+	line-height: 40px;
+	padding-left: 30px;
+}
+.blue{
+	background-color: #e5e6e6;
+}
+.white{
+	background-color: #fff;
+}
+/*复选框样式*/
+.box  span{
+	padding: 0 10px 0 5px;
+	font-size: 12px;
+	color: #666666;
+}
+.box input[type="checkbox"]{
+	-webkit-appearance: none;
+	height: 12px;
+	width:12px;
+	border: 1px solid #dedcdc;
+}
+.box input[type="checkbox"]:checked{
+	background-image: url(../../img/welldone.png);
+	background-size: 12px 12px;
+}
+.box input[type="radio"]{
+	-webkit-appearance: none;
+	height: 12px;
+	width:12px;
+	border: 1px solid #dedcdc;
+}
+.box input[type="radio"]:checked{
+	background-image: url(../../img/welldone.png);
+	background-size: 12px 12px;
+}
+/*提交按钮*/
+.submit{
+	width: 865px;
+	margin: 0 auto;
+	text-align: center;
+}
+.submit input{
+	width: 84px;
+	height: 24px;
+	background-color: #ffce1d;
+	border-radius: 3px;
+	border: 1px solid #e08c17;
+}
+
+
+
+/*底部图片*/
+.foot-img{
+	background-image: url(../../img/foot-gray.png);
+	background-color: #f2f2f2;
+}
+
+
+
+#checkbox-1 {
+   display: none; 
+   visibility:hidden;
+}
+ 
+#checkbox-1 + label { 
+    color: #fff;
+}
+ 
+#checkbox-1:checked + label {
+    color: #000;
+}
+label{
+	width: 12px;
+	height: 12px;
+	border: 1px solid #dedcdc;
+	font-size: 12px;
+}
